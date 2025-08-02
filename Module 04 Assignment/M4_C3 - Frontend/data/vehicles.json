@@ -1,0 +1,20 @@
+[
+    {
+        "name": "TVS Raider 125",
+        "type": "Bike",
+        "price": "175000",
+        "image": "https:\/\/imgd.aeplcdn.com\/370x208\/n\/cw\/ec\/103183\/raider-125-right-side-view-20.png?isig=0&q=80"
+    },
+    {
+        "name": "Yamaha R15 V4",
+        "type": "Bike",
+        "price": "450000",
+        "image": "https:\/\/imgd.aeplcdn.com\/1056x594\/n\/cw\/ec\/103795\/r15-right-side-view-7.png?isig=0&q=80"
+    },
+    {
+        "name": "Toyota",
+        "type": "Car",
+        "price": "500000",
+        "image": "https:\/\/global.toyota\/pages\/models\/images\/20191018\/thumbnail\/corolla_w610_01.jpg"
+    }
+]
