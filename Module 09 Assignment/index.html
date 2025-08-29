@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delicious Restaurant</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Delicious</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#reserve">Reserve</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="content">
+            <h1>Welcome to Delicious</h1>
+            <p>Experience the taste of perfection</p>
+            <a href="#menu" class="btn btn-warning mt-3">View Menu <i class="fas fa-utensils"></i></a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="py-5" id="menu">
+        <div class="container text-center">
+            <h2 class="mb-5">Our Menu</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="images/photo-1586190848861-99aa4a171e90.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Grilled Steak <span class="menu-icon"><i
+                                        class="fas fa-drumstick-bite"></i></span></h5>
+                            <p class="card-text">$25</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="images/photo-1586190848861-99aa4a171e90.jpg" alt="Pasta Delight">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasta Delight <span class="menu-icon"><i
+                                        class="fas fa-pizza-slice"></i></span></h5>
+                            <p class="card-text">$18</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card menu-card">
+                        <img src="images/photo-1586190848861-99aa4a171e90.jpg" alt="Pasta Delight">
+                        <div class="card-body">
+                            <h5 class="card-title">Fresh Salad <span class="menu-icon"><i
+                                        class="fas fa-leaf"></i></span></h5>
+                            <p class="card-text">$12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="bg-light py-5" id="reserve">
+        <div class="container text-center">
+            <h2 class="mb-4">Reserve a Table</h2>
+            <form class="row g-3 justify-content-center">
+                <div class="col-md-3">
+                    <input type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="tel" class="form-control" placeholder="Phone" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="col-md-3">
+                    <input type="time" class="form-control" required>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-warning px-4">Book Now <i
+                            class="fas fa-calendar-check"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section (Optional) -->
+    <section class="py-5 text-center" id="contact">
+        <div class="container">
+            <h4>Contact Us</h4>
+            <p>Email: contact@delicious.com | Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
